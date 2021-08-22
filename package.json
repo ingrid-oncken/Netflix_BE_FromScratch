@@ -1,0 +1,38 @@
+{
+  "name": "Netflix_BE_FromScratch",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config -e js ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingrid-oncken/Netflix_BE_FromScratch.git"
+  },
+  "keywords": [],
+  "author": "Ingrid Oncken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingrid-oncken/Netflix_BE_FromScratch/issues"
+  },
+  "homepage": "https://github.com/ingrid-oncken/Netflix_BE_FromScratch#readme",
+  "dependencies": {
+    "cloudinary": "^1.26.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^6.0.0",
+    "express-validator": "^6.12.1",
+    "fs-extra": "^10.0.0",
+    "http-errors": "^1.8.0",
+    "multer": "^1.4.3",
+    "multer-storage-cloudinary": "^4.0.0",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
